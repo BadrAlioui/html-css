@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+h1, h2, h3 {
+    color: #159DE6;
+}
+
+img{
+    height: 200px;
+
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./picture.png');
+    background-position: center;
+    height: 400px;}
+
+header>h1{
+    font-size: 4rem;
+    display: block;
+    font-family: "Sacramento", cursive;
+    
+    
+}
+
+header h2{
+    font-family: "Montserrat", sans-serif;
+}
+
+h1{
+   text-transform: uppercase;
+}
+
+h3{
+    margin-top: 0;
+}
+
+main{
+    text-align: center ;
+}
+
+main h2{
+    margin-top: 50px;
+    font-size: 2.5rem;
+    
+}
+
+main #profile-picture{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+main span{
+    color: red;
+}
+
+h3{
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+h2{
+    font-family: "Montserrat", sans-serif;
+}
+
+footer{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #E567F5;
+    height: 100px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+footer a{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+
+
+
+
+
+/* class */
+.pointille{
+    border: 1px dashed black;
+    width: 5cm;
+    margin: auto;
+    position: relative;
+    top: 20px;}
+
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 1fr 1fr;
+    grid-template-rows: 1fr ;
+    gap: 10px;
+
+}
+
+.container .un{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-start: 2;
+    padding: 0;
+
+}
+
+.container .text{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-start: 2;
+}
+
+.container .deux{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-start: 3;
+}
+
+.container .text2{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-start: 3;
+}
+
+.trois button{
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    background-color: #159DE6;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
